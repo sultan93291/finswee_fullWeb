@@ -3,10 +3,11 @@ import Heading from "@/Components/Tags/Heading/Heading";
 import Paragraph from "@/Components/Tags/Paragraph/Paragraph";
 import { BsArrowRight } from "react-icons/bs";
 import React from "react";
+import IMG from "@/Components/Tags/IMG/IMG";
 
 const Banner = () => {
   return (
-    <section className=" h-auto w-auto bg-Blue px-navbarPadding py-[128px] flex ">
+    <section className=" h-auto w-auto bg-Blue px-navbarPadding py-32  flex justify-between ">
       <div className=" flex flex-col gap-6 ">
         <Heading
           Heading="h1"
@@ -21,14 +22,20 @@ const Banner = () => {
         />
         <div className=" mt-12 flex gap-10 items-center ">
           <Button text={"view our work"} className={"common-Btn"} />
-          <span className=" flex items-center gap-4 label-two text-white ">
+          <span className=" flex items-center gap-4 label-two text-white text-base ">
             {" "}
             view pricing <BsArrowRight className=" text-xl " />{" "}
           </span>
         </div>
       </div>
       <div>
-        hello
+        <IMG
+          src={"/Images/Home/Banner/hero.png"}
+          alt={"hero"}
+          width={638}
+          height={24}
+          className={"bg-contain "}
+        />
       </div>
     </section>
   );

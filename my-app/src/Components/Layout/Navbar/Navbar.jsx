@@ -1,6 +1,6 @@
 "use client";
 import Button from "@/Components/Tags/Button/Button";
-import Image from "next/image";
+import IMG from "@/Components/Tags/IMG/IMG";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
@@ -12,9 +12,8 @@ const Navbar = () => {
   }, []);
   return (
     <nav className=" h-navbar_Height w-auto bg-Blue px-navbarPadding flex items-center justify-between ">
-      <Image
+      <IMG
         src={"/Images/Navbar/sitelogo.png"}
-        className=""
         height={28}
         width={122}
         alt="navbar logo"

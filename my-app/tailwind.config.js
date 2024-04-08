@@ -13,7 +13,7 @@ module.exports = {
         footerSecBoxheight: "95px",
       },
       padding: {
-        navbarPadding: "160px",
+        navbarPadding: "320px",
         footerSectionPadding: "100px",
         yellowBoxPadding: "18px",
       },
@@ -23,6 +23,9 @@ module.exports = {
         yellow: "#FCD980",
         DarkBlue: "#282938",
         black: "#1B1C2B",
+        royalBlue: "#2405F2",
+        Gray: "#F4F6FC",
+        blue_linear: "rgba(28, 30, 83, 0.6)",
       },
       fontFamily: {
         Poppins: "'Poppins', sans-serif",
@@ -36,17 +39,22 @@ module.exports = {
       gap: {
         navMenuGap: "48px",
         logoparaGap: "22px",
+        twentyFive: "25px",
         logoBoxGap: "86px",
         FooterSec: "142px",
         fourteen: "14px",
         twentyEight: "28px",
         twentySix: "28px",
+        eighty: "60px",
       },
       width: {
         NavbarBtn: "185px",
         paraWidth: "399px",
         Yellobox: "517px",
         fivesixtytwo: "562px",
+        fouro_Five: "405px",
+        sixO_fiftySix: "656px",
+        threeO_three: "303px",
       },
       borderRadius: {
         navbarBtnRadius: "41px",
@@ -63,9 +71,13 @@ module.exports = {
       margin: {
         footerSectionMargin: "158px",
         yellowboxLeft: "37px",
+        TwoFiftySeven: "257px",
       },
       lineHeight: {
         SixtyFour: "64px",
+      },
+      maxWidth: {
+        maxWidth: "1600px",
       },
     },
   },
