@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+.Navbar-Link {
+  @apply font-Poppins text-navLink capitalize font-medium leading-7;
+}
+
+.common-Paragraph {
+  @apply font-Poppins text-navLink  font-medium leading-7 opacity-paraOPacity;
+}
+
+.common-ParagraphTwo {
+  @apply font-Poppins text-navLink  font-medium leading-7 opacity-[0.7];
+}
+.common-Heading5 {
+  @apply font-Poppins text-Heading5  font-medium leading-8  text-DarkBlue;
+}
+
+.common-HeadingTwo {
+  @apply font-Poppins font-semibold leading-SixtyFour;
+}
+
+.Main-Heading {
+  @apply font-Poppins text-[54px] font-semibold leading-[74px] text-white w-[582px];
+}
+
+.common-Btn {
+  @apply h-auto w-auto py-[16px] px-[56px] rounded-[41px] bg-yellow text-black text-base capitalize font-semibold font-manrope leading-8  border-[2px] border-transparent
+  hover:border-solid hover:bg-transparent hover:border-NavbarBorderColor hover:text-white transition delay-150 ;
+}
+
+
+.NavBtn{
+  @apply h-navbarBtnHeight bg-black w-NavbarBtn rounded-navbarBtnRadius bg-transparent border-NavbarBtnBorder border-solid border-NavbarBorderColor  Navbar-Link text-white hover:border-r-transparent hover:border-transparent hover:bg-yellow transition delay-150 hover:text-black
+}
+
+.label-two {
+  @apply font-Poppins text-[16px]  font-medium leading-7 capitalize ;
+}
