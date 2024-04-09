@@ -3,6 +3,8 @@ import Banner from "./Banner/Banner";
 import Work from "./Work/Work";
 import Projects from "./Projects/Projects";
 import Features from "./Features/Features";
+import About from "./About/About";
+import Contact from "./Contact/Contact";
 
 const HomePage = () => {
   return (
@@ -10,7 +12,9 @@ const HomePage = () => {
       <Banner />
       <Work />
       <Projects />
-      <Features/>
+      <Features />
+      <About />
+      <Contact />
     </>
   );
 };

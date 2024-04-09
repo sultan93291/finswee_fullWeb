@@ -39,16 +39,20 @@
 
 .common-Btn {
   @apply h-auto w-auto py-[16px] px-[56px] rounded-[41px] bg-yellow text-black text-base capitalize font-semibold font-manrope leading-8  border-[2px] border-transparent
-  hover:border-solid hover:bg-transparent hover:border-NavbarBorderColor hover:text-white transition delay-150 ;
+  hover:border-solid hover:bg-transparent hover:border-NavbarBorderColor hover:text-white transition duration-100 ;
 }
 
 
 .NavBtn{
-  @apply h-navbarBtnHeight bg-black w-NavbarBtn rounded-navbarBtnRadius bg-transparent border-NavbarBtnBorder border-solid border-NavbarBorderColor  Navbar-Link text-white hover:border-r-transparent hover:border-transparent hover:bg-yellow transition delay-100 hover:text-black
+  @apply h-navbarBtnHeight bg-black w-NavbarBtn rounded-navbarBtnRadius bg-transparent border-NavbarBtnBorder border-solid border-NavbarBorderColor  Navbar-Link text-white hover:border-r-transparent hover:border-transparent hover:bg-yellow transition duration-100 hover:text-black
 }
 
 .label-two {
   @apply font-Poppins text-[16px]  font-medium leading-7 capitalize ;
+}
+
+.label-one{
+  @apply font-Poppins text-lg  font-medium leading-8 capitalize ;
 }
 
 .Heading-two{
@@ -65,4 +69,18 @@
 
 .Body-One {
   @apply font-Poppins text-base font-normal leading-7 opacity-[0.7]
+}
+
+.Heading-Five {
+  @apply font-Poppins text-[38px] font-semibold leading-[56px]
+}
+
+
+.Cap-two {
+  @apply font-Poppins text-xs font-semibold leading-7
+}
+
+
+.Heading-Three {
+  @apply font-Poppins text-[38px] font-semibold leading-[56px]
 }

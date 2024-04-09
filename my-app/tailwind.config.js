@@ -21,6 +21,7 @@ module.exports = {
       },
       colors: {
         Blue: "#1C1E53",
+        royalBlue:"#2405F2",
         navLinkTxtColor: "#BBBBCB",
         yellow: "#FCD980",
         DarkBlue: "#282938",
@@ -48,6 +49,8 @@ module.exports = {
         twentyEight: "28px",
         twentySix: "28px",
         eighty: "60px",
+        hundrenanTen: "110px",
+        hundredThirtySix:"136px"
       },
       width: {
         NavbarBtn: "185px",
@@ -60,6 +63,8 @@ module.exports = {
         threeOneThree: "313px",
         twoNintyThree: "293px",
         twoninety: "290px",
+        threeTwentySeven: "327px",
+        eightFourtyThree:"843px"
       },
       borderRadius: {
         navbarBtnRadius: "41px",
