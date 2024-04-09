@@ -55,6 +55,9 @@ module.exports = {
         fouro_Five: "405px",
         sixO_fiftySix: "656px",
         threeO_three: "303px",
+        threeOneThree: "313px",
+        twoNintyThree: "293px",
+        twoninety:"290px"
       },
       borderRadius: {
         navbarBtnRadius: "41px",
@@ -72,6 +75,7 @@ module.exports = {
         footerSectionMargin: "158px",
         yellowboxLeft: "37px",
         TwoFiftySeven: "257px",
+        threeOneTwo: "312px",
       },
       lineHeight: {
         SixtyFour: "64px",

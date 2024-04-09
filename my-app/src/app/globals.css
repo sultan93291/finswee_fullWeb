@@ -52,3 +52,6 @@
   @apply  font-Poppins text-5xl font-semibold leading-[48px]
 }
 
+.label-five{
+@apply font-Poppins text-2xl font-semibold leading-8 capitalize
+}
