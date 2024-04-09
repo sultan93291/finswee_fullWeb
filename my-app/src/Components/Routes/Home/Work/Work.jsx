@@ -5,30 +5,28 @@ import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 
 const Work = () => {
+  const paraTxt =
+    "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .";
   const WorkCard = [
     {
       imgpath: "/Images/Home/Work/maskOne.png",
       HeadingTxt: "Strategy",
-      paraTxt:
-        "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .",
+      paraTxt: paraTxt,
     },
     {
       imgpath: "/Images/Home/Work/maskTwo.png",
       HeadingTxt: "Wireframing",
-      paraTxt:
-        "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .",
+      paraTxt: paraTxt,
     },
     {
       imgpath: "/Images/Home/Work/maskThree.png",
       HeadingTxt: "Design",
-      paraTxt:
-        "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .",
+      paraTxt: paraTxt,
     },
     {
       imgpath: "/Images/Home/Work/maskFour.png",
       HeadingTxt: "Development",
-      paraTxt:
-        "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .",
+      paraTxt: paraTxt,
     },
   ];
 

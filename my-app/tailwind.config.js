@@ -11,11 +11,13 @@ module.exports = {
         navbar_Height: "92px",
         navbarBtnHeight: "60px",
         footerSecBoxheight: "95px",
+        threeOneSix: "306px",
       },
       padding: {
         navbarPadding: "320px",
         footerSectionPadding: "100px",
         yellowBoxPadding: "18px",
+        fiftySix: "56px",
       },
       colors: {
         Blue: "#1C1E53",
@@ -57,7 +59,7 @@ module.exports = {
         threeO_three: "303px",
         threeOneThree: "313px",
         twoNintyThree: "293px",
-        twoninety:"290px"
+        twoninety: "290px",
       },
       borderRadius: {
         navbarBtnRadius: "41px",

@@ -18,12 +18,15 @@
 .common-ParagraphTwo {
   @apply font-Poppins text-navLink  font-medium leading-7 opacity-[0.7];
 }
+.common-ParaThree {
+  @apply font-Poppins text-navLink  font-medium leading-7 
+}
 .common-Heading5 {
   @apply font-Poppins text-Heading5  font-medium leading-8  text-DarkBlue;
 }
 
 .common-HeadingTwo {
-  @apply font-Poppins font-semibold leading-SixtyFour;
+  @apply font-Poppins font-semibold leading-SixtyFour text-5xl;
 }
 
 .Main-Heading {
@@ -54,4 +57,12 @@
 
 .label-five{
 @apply font-Poppins text-2xl font-semibold leading-8 capitalize
+}
+
+.Heading-Six {
+  @apply font-Poppins text-2xl font-normal leading-9
+}
+
+.Body-One {
+  @apply font-Poppins text-base font-normal leading-7 opacity-[0.7]
 }
