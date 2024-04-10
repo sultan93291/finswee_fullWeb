@@ -1,13 +1,17 @@
-import Navbar from '@/Components/Layout/Navbar/Navbar'
-import React from 'react'
+"use client"
+import Footer from "@/Components/Layout/Footer/Footer";
+import Navbar from "@/Components/Layout/Navbar/Navbar";
+import About from "@/Components/Routes/About/About";
+import React from "react";
 
 const page = () => {
   return (
     <>
-      <Navbar/>
-    <h1>about page</h1>
+      <Navbar />
+      <About />
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default page
+export default page;

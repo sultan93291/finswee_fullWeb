@@ -74,7 +74,9 @@ module.exports = {
         FourOFive: "405px",
         fiveEightyTwo: "582px",
         fourSixtyFour: "464px",
-        sixThirty:"630px"
+        sixThirty: "630px",
+        fiveNinetyFive: "595px",
+        fourEightyFour:"484px"
       },
       borderRadius: {
         navbarBtnRadius: "41px",
