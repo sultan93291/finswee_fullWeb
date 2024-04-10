@@ -4,7 +4,7 @@ import Paragraph from "@/Components/Tags/Paragraph/Paragraph";
 import React, { useState, useEffect } from "react";
 import { RxCross1 } from "react-icons/rx";
 import { IoIosAdd } from "react-icons/io";
-import "react-accessible-accordion/dist/fancy-example.css";
+
 import {
   Accordion,
   AccordionItem,

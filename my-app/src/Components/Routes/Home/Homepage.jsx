@@ -6,7 +6,7 @@ import Features from "./Features/Features";
 import About from "./About/About";
 import Contact from "./Contact/Contact";
 import Form from "./Form/Form";
-
+import Blog from "./Blog/Blog";
 
 const HomePage = () => {
   return (
@@ -18,6 +18,7 @@ const HomePage = () => {
       <About />
       <Contact />
       <Form />
+      <Blog />
     </>
   );
 };
