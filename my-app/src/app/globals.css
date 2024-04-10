@@ -30,15 +30,19 @@
 }
 
 .Main-Heading {
-  @apply font-Poppins text-[54px] font-semibold leading-[74px] text-white w-[582px];
+  @apply font-Poppins text-[54px]  font-semibold leading-[74px]  ;
 }
 
 .HeadingFive{
   @apply font-Poppins text-[32px] font-medium leading-[48px]
 }
 
+.HeadingFive-one{
+  @apply font-Poppins text-[32px] font-normal leading-[48px]
+}
+
 .common-Btn {
-  @apply h-auto w-auto py-[16px] px-[56px] rounded-[41px] bg-yellow text-black text-base capitalize font-semibold font-manrope leading-8  border-[2px] border-transparent
+  @apply  py-[16px] px-[56px] rounded-[41px] bg-yellow text-black text-base capitalize font-semibold font-manrope leading-8  border-[2px] border-transparent
   hover:border-solid hover:bg-transparent hover:border-NavbarBorderColor hover:text-white transition duration-100 ;
 }
 
@@ -85,4 +89,12 @@
 
 .Heading-Three {
   @apply font-Poppins text-[38px] font-semibold leading-[56px]
+}
+
+.Body-Two {
+  @apply font-Poppins text-base font-medium leading-7 
+}
+
+.inputStyle{
+  @apply h-[64px] w-full bg-transparent border-[1.5px] rounded-[8px] border-fadeWhite outline-none px-8 placeholder:capitalize
 }

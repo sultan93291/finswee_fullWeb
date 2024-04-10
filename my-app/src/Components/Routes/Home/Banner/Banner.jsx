@@ -12,7 +12,7 @@ const Banner = () => {
         <Heading
           Heading="h1"
           text="Building stellar websites for early startups"
-          className="Main-Heading"
+          className="Main-Heading text-white w-fiveEightyTwo "
         />
         <Paragraph
           text={

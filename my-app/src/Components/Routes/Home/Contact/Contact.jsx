@@ -19,8 +19,6 @@ const Contact = () => {
   const handleAccordion = index => {
     if (index !== expandedIndex) {
       setExpandedIndex(index);
-    } else {
-      setExpandedIndex(index);
     }
   };
 
@@ -55,7 +53,7 @@ const Contact = () => {
   ];
   return (
     <section className=" h-auto w-auto  pl-navbarPadding py-32   bg-white flex gap-hundredThirtySix  ">
-      <div>
+      <div className=" flex flex-col gap-4">
         <Heading
           Heading={"h3"}
           className={"Heading-Three text-DarkBlue w-threeTwentySeven "}
@@ -69,11 +67,11 @@ const Contact = () => {
       <div>
         <Accordion
           preExpanded={[0]}
-          className="relative flex flex-col gap-12 w-eightFourtyThree "
+          className="relative flex flex-col gap-8  w-eightFourtyThree "
         >
           {items.map((item, index) => (
             <AccordionItem
-              className={`${index !== 0 ? " mt-8 " : ""}`}
+              className={`${index !== 0 ? " mt-8 " : ""} ${index === expandedIndex ?"mb-8":""} `}
               uuid={index}
               key={index}
             >
@@ -99,12 +97,12 @@ const Contact = () => {
                 <AccordionItemButton className=" absolute top-0 right-0  flex ">
                   {expandedIndex === index ? (
                     <RxCross1
-                      className=" text-base "
+                      className=" text-base text-DarkBlue "
                       onClick={() => handleAccordion(index)}
                     />
                   ) : (
                     <IoIosAdd
-                      className=" text-xl "
+                      className=" text-xl text-DarkBlue "
                       onClick={() => handleAccordion(index)}
                     />
                   )}

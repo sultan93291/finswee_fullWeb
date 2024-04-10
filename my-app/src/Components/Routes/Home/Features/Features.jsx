@@ -66,10 +66,10 @@ const Features = () => {
         <Heading
           Heading={"h2"}
           text={"Design that solves problems, one product at a time"}
-          className={"common-HeadingTwo w-[630px] text-center text-DarkBlue "}
+          className={"common-HeadingTwo w-sixThirty text-center text-DarkBlue "}
         />
       </div>
-      <div className=" flex flex-wrap gap-x-8 gap-y-6  ">
+      <div className=" flex flex-wrap gap-x-8 gap-y-6  justify-center  ">
         {featureCards.map((item, index) => (
           <FeaturesCards
             key={index}

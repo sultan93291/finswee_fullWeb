@@ -12,6 +12,8 @@ module.exports = {
         navbarBtnHeight: "60px",
         footerSecBoxheight: "95px",
         threeOneSix: "306px",
+        sixHundred: "600px",
+        sixNinetyOne: "691px",
       },
       padding: {
         navbarPadding: "320px",
@@ -30,6 +32,7 @@ module.exports = {
         Gray: "#F4F6FC",
         blue_linear: "rgba(28, 30, 83, 0.6)",
         offWhite: "#ECECF1",
+        fadeWhite: "#FFFFFF0D",
       },
       fontFamily: {
         Poppins: "'Poppins', sans-serif",
@@ -45,7 +48,7 @@ module.exports = {
         logoparaGap: "22px",
         twentyFive: "25px",
         logoBoxGap: "86px",
-        FooterSec: "142px",
+        FooterSec: "10px",
         fourteen: "14px",
         twentyEight: "28px",
         twentySix: "28px",
@@ -66,7 +69,12 @@ module.exports = {
         twoninety: "290px",
         threeTwentySeven: "327px",
         eightFourtyThree: "843px",
-        sixTwentyFour:"624px"
+        sixTwentyFour: "624px",
+        threeNintySix: "396px",
+        FourOFive: "405px",
+        fiveEightyTwo: "582px",
+        fourSixtyFour: "464px",
+        sixThirty:"630px"
       },
       borderRadius: {
         navbarBtnRadius: "41px",
@@ -88,6 +96,7 @@ module.exports = {
         eighttyNine: "89px",
         expand: "-126px",
         collpase: "-32px",
+        hundredTwentyNine: "129px",
       },
       lineHeight: {
         SixtyFour: "64px",

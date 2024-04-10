@@ -15,8 +15,8 @@ const Footer = () => {
   }, []);
   return (
     <>
-      <section className="h-auto pt-footerSectionPadding  bg-Blue w-auto flex gap-FooterSec ">
-        <div className=" flex flex-col gap-logoBoxGap ml-footerSectionMargin  ">
+      <section className="h-auto pt-footerSectionPadding  bg-Blue w-auto flex gap-FooterSec   ">
+        <div className=" flex flex-col gap-logoBoxGap px-navbarPadding  ">
           <div className="flex flex-col gap-logoparaGap ">
             <Image
               src={"/Images/Footer/footerLogo.png"}
@@ -93,7 +93,7 @@ const Footer = () => {
           text={"Copyright 2022, Finsweet.com"}
           className={"common-Heading5"}
         />
-        <ul className="flex gap-8">
+        <ul className="flex gap-8  ">
           <li>
             <Link href={"/"} className="Navbar-Link text-DarkBlue ">
               home

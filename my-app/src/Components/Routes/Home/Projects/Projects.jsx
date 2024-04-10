@@ -19,7 +19,7 @@ const Projects = () => {
         </span>
       </div>
       <div className="flex gap-8 ">
-        <div className="h-[600px] w-[843px] relative after:absolute after:content-[''] after:h-[600px] after:w-[396px] after:bg-blue_linear  after:top-0 after:left-0 after:z-20 ">
+        <div className=" h-sixHundred w-eightFourtyThree relative after:absolute after:content-[''] after:h-sixHundred after:w-threeNintySix after:bg-blue_linear  after:top-0 after:left-0 after:z-20 ">
           <IMG
             src={"/Images/Home/Projects/workhub.jpg"}
             alt={"workhub img"}
@@ -47,7 +47,7 @@ const Projects = () => {
             </span>
           </div>
         </div>
-        <div className="flex flex-col gap-8 relative after:absolute after:content-[''] after:h-[284px] after:w-[405px] after:bg-blue_linear  after:top-0 after:left-1 after:z-20  ">
+        <div className="flex flex-col gap-8 relative after:absolute after:content-[''] after:h-[284px] after:w-FourOFive after:bg-blue_linear  after:top-0 after:left-1 after:z-20  ">
           <IMG
             src={"/Images/Home/Projects/uninas.jpg"}
             alt={"uninas img"}
@@ -61,12 +61,12 @@ const Projects = () => {
             width={405}
             height={284}
           />
-          <div className=" absolute top-0 left-0 z-30 ml-14 mt-[129px] flex flex-col gap-10 ">
+          <div className=" absolute top-0 left-0 z-30 ml-14 mt-hundredTwentyNine flex flex-col gap-10 ">
             <div className="">
               <Heading
                 Heading={"h5"}
                 text={"Unisaas Website Design"}
-                className={"label-five text-white w-twoninety "}
+                className={"Main-Heading text-white w-twoninety "}
               />
             </div>
             <span className=" flex items-center  gap-4 label-two text-yellow text-base ">
