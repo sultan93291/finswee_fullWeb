@@ -55,6 +55,7 @@ module.exports = {
         eighty: "60px",
         hundrenanTen: "110px",
         hundredThirtySix: "136px",
+        sixty:"60px"
       },
       width: {
         NavbarBtn: "185px",
@@ -76,7 +77,8 @@ module.exports = {
         fourSixtyFour: "464px",
         sixThirty: "630px",
         fiveNinetyFive: "595px",
-        fourEightyFour:"484px"
+        fourEightyFour: "484px",
+        fiveOneFive:"515px"
       },
       borderRadius: {
         navbarBtnRadius: "41px",
@@ -99,6 +101,7 @@ module.exports = {
         expand: "-126px",
         collpase: "-32px",
         hundredTwentyNine: "129px",
+        CommonMargin:"320px",
       },
       lineHeight: {
         SixtyFour: "64px",
