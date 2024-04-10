@@ -28,27 +28,27 @@ const Contact = () => {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
   const items = [
     {
-      itemNum: "1",
+      itemNum: "01",
       Heading: "How much time does it take?",
       content: ItemContent,
     },
     {
-      itemNum: "2",
+      itemNum: "02",
       Heading: "What is your class naming convention?",
       content: ItemContent,
     },
     {
-      itemNum: "3",
+      itemNum: "03",
       Heading: "How do you communicate?",
       content: ItemContent,
     },
     {
-      itemNum: "4",
+      itemNum: "04",
       Heading: "I have a bigger project. Can you handle it?",
       content: ItemContent,
     },
     {
-      itemNum: "5",
+      itemNum: "05",
       Heading: "What is your class naming convention?",
       content: ItemContent,
     },
@@ -67,21 +67,52 @@ const Contact = () => {
         />
       </div>
       <div>
-        <Accordion preExpanded={[0]} className="relative">
+        <Accordion
+          preExpanded={[0]}
+          className="relative flex flex-col gap-12 w-eightFourtyThree "
+        >
           {items.map((item, index) => (
-            <AccordionItem className="" uuid={index} key={index}>
-              {item.itemNum}
-              <AccordionItemHeading className="  " >
+            <AccordionItem
+              className={`${index !== 0 ? " mt-8 " : ""}`}
+              uuid={index}
+              key={index}
+            >
+              <Heading
+                Heading={"h6"}
+                text={item.itemNum}
+                className=" absolute flex items-center text-center Heading-Six text-royalBlue left-0 "
+              />
+
+              <AccordionItemHeading
+                className={`ml-eighttyNine Heading-Six-2nd text-DarkBlue mb-4 relative ${
+                  index !== 4
+                    ? `after:absolute after:content-[''] after:h-0.5 after:w-eightFourtyThree after:bg-offWhite after:right-0 after:bottom-0   
+                  ${
+                    expandedIndex === index
+                      ? "after:mb-expand"
+                      : "after:mb-collpase"
+                  } `
+                    : ""
+                }   `}
+              >
                 {item.Heading}
-                <AccordionItemButton className="h-[20px] w-[20px] bg-red-400 absolute right-0  ">
+                <AccordionItemButton className=" absolute top-0 right-0  flex ">
                   {expandedIndex === index ? (
-                    <RxCross1 onClick={() => handleAccordion(index)} />
+                    <RxCross1
+                      className=" text-base "
+                      onClick={() => handleAccordion(index)}
+                    />
                   ) : (
-                    <IoIosAdd onClick={() => handleAccordion(index)} />
+                    <IoIosAdd
+                      className=" text-xl "
+                      onClick={() => handleAccordion(index)}
+                    />
                   )}
                 </AccordionItemButton>
               </AccordionItemHeading>
-              <AccordionItemPanel>{item.content}</AccordionItemPanel>
+              <AccordionItemPanel className="ml-eighttyNine label-one opacity-85 w-sixTwentyFour ">
+                {item.content}
+              </AccordionItemPanel>
             </AccordionItem>
           ))}
         </Accordion>

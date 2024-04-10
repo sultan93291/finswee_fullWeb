@@ -21,7 +21,7 @@ module.exports = {
       },
       colors: {
         Blue: "#1C1E53",
-        royalBlue:"#2405F2",
+        royalBlue: "#2405F2",
         navLinkTxtColor: "#BBBBCB",
         yellow: "#FCD980",
         DarkBlue: "#282938",
@@ -29,6 +29,7 @@ module.exports = {
         royalBlue: "#2405F2",
         Gray: "#F4F6FC",
         blue_linear: "rgba(28, 30, 83, 0.6)",
+        offWhite: "#ECECF1",
       },
       fontFamily: {
         Poppins: "'Poppins', sans-serif",
@@ -50,7 +51,7 @@ module.exports = {
         twentySix: "28px",
         eighty: "60px",
         hundrenanTen: "110px",
-        hundredThirtySix:"136px"
+        hundredThirtySix: "136px",
       },
       width: {
         NavbarBtn: "185px",
@@ -64,7 +65,8 @@ module.exports = {
         twoNintyThree: "293px",
         twoninety: "290px",
         threeTwentySeven: "327px",
-        eightFourtyThree:"843px"
+        eightFourtyThree: "843px",
+        sixTwentyFour:"624px"
       },
       borderRadius: {
         navbarBtnRadius: "41px",
@@ -83,6 +85,9 @@ module.exports = {
         yellowboxLeft: "37px",
         TwoFiftySeven: "257px",
         threeOneTwo: "312px",
+        eighttyNine: "89px",
+        expand: "-126px",
+        collpase: "-32px",
       },
       lineHeight: {
         SixtyFour: "64px",
