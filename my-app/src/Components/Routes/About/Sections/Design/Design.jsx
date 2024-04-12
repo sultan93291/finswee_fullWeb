@@ -6,7 +6,7 @@ import React from "react";
 
 const Design = () => {
   return (
-    <section className=" h-auto w-auto  px-navbarPadding py-32 flex justify-between  bg-white   ">
+    <section className=" h-auto max-w-maxWidth mx-auto py-32 flex justify-between  bg-white   ">
       <div className="flex flex-col">
         <Paragraph className={"label-one my-2 "} text={"About us"} />
         <div className=" flex flex-col gap-8">

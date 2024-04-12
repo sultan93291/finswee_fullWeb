@@ -78,7 +78,8 @@ module.exports = {
         sixThirty: "630px",
         fiveNinetyFive: "595px",
         fourEightyFour: "484px",
-        fiveOneFive:"515px"
+        fiveOneFive: "515px",
+        twoSeventyTwo:"272px"
       },
       borderRadius: {
         navbarBtnRadius: "41px",
@@ -107,7 +108,7 @@ module.exports = {
         SixtyFour: "64px",
       },
       maxWidth: {
-        maxWidth: "1600px",
+        maxWidth: "1280px",
       },
     },
   },

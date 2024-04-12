@@ -5,7 +5,7 @@ import React from "react";
 
 const Improvement = () => {
   return (
-    <section className=" h-auto w-auto  mx-CommonMargin my-32  bg-Gray   ">
+    <section className=" h-auto max-w-maxWidth mx-auto   my-32  bg-Gray   ">
       <div className=" flex flex-col p-20 ">
         <Paragraph text={"Who we are"} className={"label-two text-DarkBlue"} />
         <div className="flex gap-sixty ">
