@@ -92,7 +92,7 @@
 }
 
 .Body-Two {
-  @apply font-Poppins text-base font-medium leading-7 
+  @apply font-Poppins text-base font-medium leading-7 opacity-70
 }
 
 .inputStyle{

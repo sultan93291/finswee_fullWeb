@@ -21,6 +21,8 @@ module.exports = {
         footerSectionPadding: "100px",
         yellowBoxPadding: "18px",
         fiftySix: "56px",
+        seventySix: "76px",
+        sixtyTwo: "62px",
       },
       colors: {
         Blue: "#1C1E53",
@@ -36,6 +38,7 @@ module.exports = {
         fadeWhite: "#FFFFFF0D",
         accent: "#EEF4FA",
         SBlack: "#1D2130",
+        green: "#97DAAD",
       },
       fontFamily: {
         Poppins: "'Poppins', sans-serif",
@@ -61,6 +64,7 @@ module.exports = {
         sixty: "60px",
         oneFourty: "140px",
         thirty: "30px",
+        fifty:"50px"
       },
       width: {
         NavbarBtn: "185px",
@@ -88,6 +92,7 @@ module.exports = {
         sixTwentyThree: "623px",
         sixThirty: "630px",
         twoNintySix: "296px",
+        fourOSix: "406px",
       },
       borderRadius: {
         navbarBtnRadius: "41px",
