@@ -1,6 +1,5 @@
 import ProcessCard from "@/Components/Cards/ProcessCards/ProcessCard";
 import Heading from "@/Components/Tags/Heading/Heading";
-import Paragraph from "@/Components/Tags/Paragraph/Paragraph";
 import React from "react";
 
 const Process = () => {
