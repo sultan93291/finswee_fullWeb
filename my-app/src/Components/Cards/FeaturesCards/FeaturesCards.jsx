@@ -13,9 +13,12 @@ const FeaturesCards = ({
   ImageStyle,
   paraText,
   HeadingText,
+  boxColor
 }) => {
   return (
-    <div className=" h-threeOneSix w-fouro_Five bg-white pt-fiftySix pl-12 flex flex-col gap-logoparaGap ">
+    <div
+      className={`h-threeOneSix w-fouro_Five bg-${boxColor} pt-fiftySix pl-12 flex flex-col gap-logoparaGap `}
+    >
       <IMG
         src={src}
         alt={alt}

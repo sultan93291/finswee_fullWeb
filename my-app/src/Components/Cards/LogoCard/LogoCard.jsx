@@ -30,32 +30,32 @@ const LogoCard = () => {
         <IMG
           src={"/Images/PartnerLogos/lgtwo.png"}
           alt={"logos"}
-          height={56}
-          width={176}
+          height={32}
+          width={162}
         />
       </li>
       <li className="flex flex-col">
         <IMG
           src={"/Images/PartnerLogos/lgthree.png"}
           alt={"logos"}
-          height={56}
-          width={176}
+          height={32}
+          width={162}
         />
       </li>
       <li className="flex flex-col">
         <IMG
           src={"/Images/PartnerLogos/lgfour.png"}
           alt={"logos"}
-          height={56}
-          width={176}
+          height={32}
+          width={162}
         />
       </li>
       <li className="flex flex-col">
         <IMG
           src={"/Images/PartnerLogos/lgfive.png"}
           alt={"logos"}
-          height={56}
-          width={176}
+          height={32}
+          width={162}
         />
       </li>
     </ul>

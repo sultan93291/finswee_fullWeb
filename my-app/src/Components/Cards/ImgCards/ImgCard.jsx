@@ -12,32 +12,41 @@ const ImgCard = ({
   heading,
   subheadingTxt,
   paraTxt,
-  altTxt
+  altTxt,
+  bgColor
 }) => {
   return (
-    <div className="flex gap-sixty items-center ">
+    <div className={`flex gap-sixty items-center  
+    bg-${bgColor} h-auto w-auto `}>
       {ImagePosX === "left" && (
-        <IMG src={imgSrc} height={height} width={width} alt={altTxt} className={ImgStyle}   />
+        <IMG
+          src={imgSrc}
+          height={height}
+          width={width}
+          alt={altTxt}
+          className={ImgStyle}
+        />
       )}
       <div className="flex flex-col gap-4  ">
-        <Paragraph
-          text={ heading}
-          className={"label-two text-DarkBlue"}
-        />
+        <Paragraph text={heading} className={"label-two text-DarkBlue"} />
         <Heading
           Heading={"h3"}
           text={subheadingTxt}
           className={"Heading-Three text-DarkBlue "}
         />
         <Paragraph
-          text={
-            paraTxt
-          }
+          text={paraTxt}
           className={"Body-One text-DarkBlue  w-sixTwentyThree "}
         />
       </div>
       {ImagePosX === "right" && (
-        <IMG src={imgSrc} height={height} width={width} alt={altTxt} className={ImgStyle} />
+        <IMG
+          src={imgSrc}
+          height={height}
+          width={width}
+          alt={altTxt}
+          className={ImgStyle}
+        />
       )}
     </div>
   );

@@ -81,6 +81,7 @@ const Features = () => {
             HeadingStyle={"Heading-Six text-DarkBlue "}
             paraText={item.ParaTxt}
             paraStyle={" Body-One text-DarkBlue"}
+            boxColor={"white"}
           />
         ))}
       </div>

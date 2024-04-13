@@ -15,7 +15,7 @@ const WorkCards = ({
   HeadingText,
 }) => {
   return (
-    <div className="flex flex-col gap-4 ">
+    <div className="flex flex-col gap-4 bg-Gray ">
       <IMG
         src={src}
         width={50}
