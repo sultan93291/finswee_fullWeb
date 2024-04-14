@@ -17,7 +17,7 @@ const ImgCard = ({
 }) => {
   return (
     <div className={`flex gap-sixty items-center  
-    bg-${bgColor} h-auto w-auto `}>
+     h-auto w-full `}>
       {ImagePosX === "left" && (
         <IMG
           src={imgSrc}

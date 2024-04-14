@@ -39,6 +39,7 @@ module.exports = {
         accent: "#EEF4FA",
         SBlack: "#1D2130",
         green: "#97DAAD",
+        lightYellow: "#FFFFF0",
       },
       fontFamily: {
         Poppins: "'Poppins', sans-serif",
@@ -65,7 +66,7 @@ module.exports = {
         oneFourty: "140px",
         thirty: "30px",
         fifty: "50px",
-        seventySix:"76px"
+        seventySix: "76px",
       },
       width: {
         NavbarBtn: "185px",
