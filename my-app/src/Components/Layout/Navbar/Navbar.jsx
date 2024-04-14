@@ -69,6 +69,18 @@ const Navbar = () => {
           </li>
           <li>
             <Link
+              href={"/portfolio"}
+              className={`${
+                pathName === "/portfolio"
+                  ? " text-white "
+                  : " text-navLinkTxtColor "
+              } Navbar-Link `}
+            >
+              portfolio
+            </Link>
+          </li>
+          <li>
+            <Link
               href={"/faq"}
               className={`${
                 pathName === "/faq" ? " text-white " : " text-navLinkTxtColor "

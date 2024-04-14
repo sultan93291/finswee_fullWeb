@@ -1,18 +1,15 @@
 import Heading from "@/Components/Tags/Heading/Heading";
 import Paragraph from "@/Components/Tags/Paragraph/Paragraph";
 import Image from "next/image";
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { FaFacebook } from "react-icons/fa";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import Link from "next/link";
+
 const Footer = () => {
-  const [pathName, setpathName] = useState();
-  useEffect(() => {
-    const path = window.location.pathname;
-    setpathName(path);
-  }, []);
+  
   return (
     <>
       <section className="h-auto pt-footerSectionPadding  bg-Blue w-auto flex gap-FooterSec   ">
@@ -112,6 +109,11 @@ const Footer = () => {
           <li>
             <Link href={"/pricing"} className="Navbar-Link text-DarkBlue ">
               pricing
+            </Link>
+          </li>
+          <li>
+            <Link href={"/portfolio"} className="Navbar-Link text-DarkBlue ">
+              portfolio
             </Link>
           </li>
           <li>

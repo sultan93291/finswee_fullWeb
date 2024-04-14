@@ -71,7 +71,7 @@ export const PriceCard = ({
         <Button
           text={btnTXt}
           className={
-            " py-[16px] px-[56px] rounded-[41px] bg-DarkBlue text-white text-base capitalize font-semibold font-manrope leading-8  border-[2px] border-transparent group-hover:border-solid group-hover:bg-yellow  group-hover:text-DarkBlue transition duration-100 h-full w-full "
+            "py-[16px] px-[56px] rounded-[41px] bg-DarkBlue text-white text-base capitalize font-semibold font-manrope leading-8  border-[2px] border-transparent group-hover:border-solid group-hover:bg-yellow  group-hover:text-DarkBlue transition duration-100 h-full w-full "
           }
         />
       </div>

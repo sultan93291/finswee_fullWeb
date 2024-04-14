@@ -51,6 +51,11 @@
   @apply h-navbarBtnHeight bg-black w-NavbarBtn rounded-navbarBtnRadius bg-transparent border-NavbarBtnBorder border-solid border-NavbarBorderColor  Navbar-Link text-white hover:border-r-transparent hover:border-transparent hover:bg-yellow transition duration-100 hover:text-black
 }
 
+
+.common-yellow-BlackBtn{
+  @apply py-[16px] px-[56px] rounded-[41px] bg-yellow text-DarkBlue text-base capitalize font-semibold font-manrope leading-8  border-[2px] border-transparent hover:border-solid hover:bg-DarkBlue  hover:text-white transition duration-100 
+}
+
 .label-two {
   @apply font-Poppins text-[16px]  font-medium leading-7 capitalize ;
 }

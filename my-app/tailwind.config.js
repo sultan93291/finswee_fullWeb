@@ -67,6 +67,7 @@ module.exports = {
         thirty: "30px",
         fifty: "50px",
         seventySix: "76px",
+        thirtyFour:"34px"
       },
       width: {
         NavbarBtn: "185px",
@@ -95,6 +96,7 @@ module.exports = {
         sixThirty: "630px",
         twoNintySix: "296px",
         fourOSix: "406px",
+        sevenThirtyThree:"733px"
       },
       borderRadius: {
         navbarBtnRadius: "41px",
