@@ -71,7 +71,7 @@ const Navbar = () => {
             <Link
               href={"/portfolio"}
               className={`${
-                pathName === "/portfolio"
+                pathName === "/portfolio" 
                   ? " text-white "
                   : " text-navLinkTxtColor "
               } Navbar-Link `}

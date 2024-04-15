@@ -71,7 +71,9 @@ module.exports = {
         seventySix: "76px",
         thirtyFour: "34px",
         twentySix: "26px",
-        fiftyThree:"53px"
+        fiftyThree: "53px",
+        twenty: "20px",
+        ninetySix:"96px"
       },
       width: {
         NavbarBtn: "185px",
