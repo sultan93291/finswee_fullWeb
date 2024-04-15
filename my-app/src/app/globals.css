@@ -78,6 +78,9 @@
 .Heading-Six-2nd {
   @apply font-Poppins text-2xl font-medium leading-9
 }
+.Heading-Six-3rd {
+  @apply font-Poppins text-2xl font-medium leading-8
+}
 .Body-One {
   @apply font-Poppins text-base font-normal leading-7 opacity-70
 }

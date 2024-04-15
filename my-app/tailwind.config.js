@@ -15,6 +15,8 @@ module.exports = {
         sixHundred: "600px",
         sixNinetyOne: "691px",
         threeFoutyFour: "344px",
+        one: "1px",
+        fiveOEight:"508px"
       },
       padding: {
         navbarPadding: "320px",
@@ -67,7 +69,9 @@ module.exports = {
         thirty: "30px",
         fifty: "50px",
         seventySix: "76px",
-        thirtyFour:"34px"
+        thirtyFour: "34px",
+        twentySix: "26px",
+        fiftyThree:"53px"
       },
       width: {
         NavbarBtn: "185px",
@@ -96,7 +100,11 @@ module.exports = {
         sixThirty: "630px",
         twoNintySix: "296px",
         fourOSix: "406px",
-        sevenThirtyThree:"733px"
+        sevenThirtyThree: "733px",
+        thousandSixtyEight: "1068px",
+        nineFiftyFive: "952px",
+        eightFourtyTwo: "842px",
+        eightThirtySeven:"837px"
       },
       borderRadius: {
         navbarBtnRadius: "41px",
@@ -120,6 +128,9 @@ module.exports = {
         collpase: "-32px",
         hundredTwentyNine: "129px",
         CommonMargin: "320px",
+        oneZeroEight: "108px",
+        thirtyTwo: "32px",
+        twoTwenty:"220px"
       },
       lineHeight: {
         SixtyFour: "64px",
