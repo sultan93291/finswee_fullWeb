@@ -1,8 +1,12 @@
 import BlogCards from "@/Components/Cards/BlogCards/BlogCards";
 import Heading from "@/Components/Tags/Heading/Heading";
 import React from "react";
-
+import {  useRouter } from "next/navigation";
 const Blog = () => {
+  const router = useRouter();
+  const handleblog = ImgSrc => {
+    router.push(`/blog/blogsrc?=${ImgSrc}`);
+  };
   const Date = "19 jan 2022";
   const HeadingTXt =
     "How one Webflow user grew his single person consultancy from $0-100K in 14 months";
@@ -35,19 +39,21 @@ const Blog = () => {
         text={"Our blog"}
         className={"Heading-two text-DarkBlue"}
       />
-      <div className=" flex gap-8 ">
+      <div className=" flex  flex-wrap gap-x-8 gap-y-sixtyFour  ">
         {BlogCard.map((item, index) => (
-          <BlogCards
-            key={index}
-            src={item.imgPath}
-            height={285}
-            width={405}
-            DateTxt={item.Date}
-            ParaTxt={item.paraTxt}
-            HeadingTxt={item.HeadingTXt}
-            alt={"blog card image"}
-            imgStyle={"bg-cover"}
-          />
+          <div onClick={() => handleblog(item.imgPath)}>
+            <BlogCards
+              key={index}
+              src={item.imgPath}
+              height={285}
+              width={405}
+              DateTxt={item.Date}
+              ParaTxt={item.paraTxt}
+              HeadingTxt={item.HeadingTXt}
+              alt={"blog card image"}
+              imgStyle={"bg-cover"}
+            />
+          </div>
         ))}
       </div>
     </section>

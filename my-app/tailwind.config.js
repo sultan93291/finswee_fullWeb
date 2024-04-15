@@ -17,6 +17,7 @@ module.exports = {
         threeFoutyFour: "344px",
         one: "1px",
         fiveOEight: "508px",
+        threeOneOne:"311px"
       },
       padding: {
         navbarPadding: "320px",
@@ -74,6 +75,7 @@ module.exports = {
         fiftyThree: "53px",
         twenty: "20px",
         ninetySix: "96px",
+        sixtyFour: "64px",
       },
       width: {
         NavbarBtn: "185px",
@@ -109,7 +111,7 @@ module.exports = {
         eightThirtySeven: "837px",
         fourSeventySeven: "477px",
         thousandTwoZeroeight: "1280px",
-        nineFourtyNine:"949px"
+        nineFourtyNine: "949px",
       },
       borderRadius: {
         navbarBtnRadius: "41px",

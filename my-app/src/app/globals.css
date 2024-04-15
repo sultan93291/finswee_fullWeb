@@ -64,6 +64,10 @@
   @apply font-Poppins text-lg  font-medium leading-8 capitalize ;
 }
 
+.mixed-label{
+  @apply font-Poppins text-[16px]  font-normal leading-8 capitalize ;
+}
+
 .Heading-two{
   @apply  font-Poppins text-5xl font-semibold leading-[48px]
 }

@@ -4,9 +4,10 @@ import Paragraph from "@/Components/Tags/Paragraph/Paragraph";
 import React from "react";
 
 const BlogImgCard = ({ imgSrc }) => {
+  console.log(imgSrc)
   return (
-    <div className="flex flex-col gap-y-8 items-center ">
-      <div className="  flex flex-col items-center">
+    <div className="flex flex-col gap-y-12 items-center ">
+      <div className="  flex flex-col items-center gap-y-4 ">
         <Heading
           Heading={"h2"}
           className={
@@ -31,12 +32,13 @@ const BlogImgCard = ({ imgSrc }) => {
         />
       </div>
       <IMG
-        src={imgSrc ? { imgSrc } : "/Images/BlogCard/cutegirl.png"}
+        src={imgSrc ? imgSrc : "/Images/BlogCard/cutegirl.png"}
         height={477}
         width={1280}
         className={
           "h-fourSeventySeven w-thousandTwoZeroeight bg-cover bg-no-repeat"
         }
+        alt={"blog img card"}
       />
     </div>
   );

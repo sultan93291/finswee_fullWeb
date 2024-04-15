@@ -1,3 +1,4 @@
+"use client";
 import Heading from "@/Components/Tags/Heading/Heading";
 import IMG from "@/Components/Tags/IMG/IMG";
 import Paragraph from "@/Components/Tags/Paragraph/Paragraph";
@@ -14,8 +15,9 @@ const BlogCards = ({
   HeadingTxt,
   DateTxt,
 }) => {
+  
   return (
-    <div className="flex flex-col w-fouro_Five gap-10 ">
+    <div className="flex flex-col w-fouro_Five gap-10 cursor-pointer ">
       <IMG
         src={src}
         height={height}
@@ -25,7 +27,10 @@ const BlogCards = ({
       />
       <div className="flex flex-col gap-8">
         <div className="flex flex-col gap-4 ">
-          <Paragraph text={DateTxt} className={"label-two text-DarkBlue opacity-70 "} />
+          <Paragraph
+            text={DateTxt}
+            className={"label-two text-DarkBlue opacity-70 "}
+          />
           <Heading
             text={HeadingTxt}
             Heading={"h6"}
