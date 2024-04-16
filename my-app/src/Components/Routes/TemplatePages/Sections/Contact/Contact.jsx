@@ -1,10 +1,16 @@
+"use client";
 import Button from "@/Components/Tags/Button/Button";
 import Heading from "@/Components/Tags/Heading/Heading";
 import Paragraph from "@/Components/Tags/Paragraph/Paragraph";
 import React from "react";
-
+import { useRouter } from "next/navigation";
 
 const Contact = () => {
+  const router = useRouter();
+  const handleclick = () => {
+    router.push("/contact");
+  };
+
   return (
     <section className=" h-auto w-auto  bg-white mx-auto flex flex-col items-center gap-10 py-32    ">
       <div className="flex flex-col gap-y-twenty items-center ">
@@ -24,7 +30,11 @@ const Contact = () => {
           }
         />
       </div>
-      <Button text={"Contact Us"} className={"common-yellow-BlackBtn"} />
+      <Button
+        text={"Contact Us"}
+        className={"common-yellow-BlackBtn"}
+        onclick={handleclick}
+      />
     </section>
   );
 };

@@ -7,20 +7,20 @@
   width: 0px;
   height: 0px;
 }
-.Navbar-Link {
-  @apply font-Poppins text-navLink capitalize font-medium leading-7;
-}
 
+/* {common paragraph style started } */
 .common-Paragraph {
   @apply font-Poppins text-navLink  font-medium leading-7 opacity-paraOPacity;
 }
-
 .common-ParagraphTwo {
-  @apply font-Poppins text-navLink  font-medium leading-7 opacity-[0.7];
+  @apply font-Poppins text-navLink  font-medium leading-7 opacity-70;
 }
 .common-ParaThree {
   @apply font-Poppins text-navLink  font-medium leading-7;
 }
+/* {common paragraph style ended } */
+
+/* {common heading style ended } */
 .common-Heading5 {
   @apply font-Poppins text-Heading5  font-medium leading-8  text-DarkBlue;
 }
@@ -30,53 +30,16 @@
 }
 
 .Main-Heading {
-  @apply font-Poppins text-[54px]  font-semibold leading-[74px];
+  @apply font-Poppins text-fiftyFour font-semibold leading-seventyFour;
 }
 
 .HeadingFive {
-  @apply font-Poppins text-[32px] font-medium leading-[48px];
+  @apply font-Poppins text-thirtyTwo font-medium leading-fourtyEight;
 }
 
 .HeadingFive-one {
-  @apply font-Poppins text-[32px] font-normal leading-[48px];
+  @apply font-Poppins text-thirtyTwo font-normal leading-fourtyEight;
 }
-
-.common-Btn {
-  @apply py-[16px] px-[56px] rounded-[41px] bg-yellow text-black text-base capitalize font-semibold font-manrope leading-8  border-[2px] border-transparent
-  hover:border-solid hover:bg-transparent hover:border-NavbarBorderColor hover:text-white transition duration-100;
-}
-
-.NavBtn {
-  @apply h-navbarBtnHeight bg-black w-NavbarBtn rounded-navbarBtnRadius bg-transparent border-NavbarBtnBorder border-solid border-NavbarBorderColor  Navbar-Link text-white hover:border-r-transparent hover:border-transparent hover:bg-yellow transition duration-100 hover:text-black;
-}
-
-.common-yellow-BlackBtn {
-  @apply py-[16px] px-[56px] rounded-[41px] bg-yellow text-DarkBlue text-base capitalize font-semibold font-manrope leading-8  border-[2px] border-transparent hover:border-solid hover:bg-DarkBlue  hover:text-white transition duration-100;
-}
-.blackBtn {
-  @apply py-[16px] px-[56px] rounded-[41px] bg-DarkBlue text-white text-base capitalize font-semibold font-manrope leading-8  border-[2px] border-transparent hover:border-solid hover:bg-yellow hover:text-DarkBlue transition duration-100;
-}
-
-.label-two {
-  @apply font-Poppins text-[16px]  font-medium leading-7 capitalize;
-}
-
-.label-one {
-  @apply font-Poppins text-lg  font-medium leading-8 capitalize;
-}
-
-.mixed-label {
-  @apply font-Poppins text-[16px]  font-normal leading-8 capitalize;
-}
-
-.Heading-two {
-  @apply font-Poppins text-5xl font-semibold leading-[48px];
-}
-
-.label-five {
-  @apply font-Poppins text-2xl font-semibold leading-8 capitalize;
-}
-
 .Heading-Six {
   @apply font-Poppins text-2xl font-normal leading-9;
 }
@@ -86,6 +49,60 @@
 .Heading-Six-3rd {
   @apply font-Poppins text-2xl font-medium leading-8;
 }
+.Heading-two {
+  @apply font-Poppins text-5xl font-semibold leading-fourtyEight;
+}
+.Heading-Five {
+  @apply font-Poppins text-thirtyEight font-semibold leading-fiftySix;
+}
+
+.Heading-Three {
+  @apply font-Poppins text-thirtyEight font-semibold leading-fiftySix;
+}
+
+/* {common heading style ended } */
+
+/* {common button style started } */
+.common-Btn {
+  @apply py-sixteen px-fiftySix rounded-navbarBtnRadius bg-yellow text-black text-base capitalize font-semibold font-manrope leading-8  border-NavbarBtnBorder border-transparent
+  hover:border-solid hover:bg-transparent hover:border-NavbarBorderColor hover:text-white transition duration-100;
+}
+.NavBtn {
+  @apply h-navbarBtnHeight bg-black w-NavbarBtn rounded-navbarBtnRadius bg-transparent border-NavbarBtnBorder border-solid border-NavbarBorderColor  Navbar-Link text-white hover:border-r-transparent hover:border-transparent hover:bg-yellow transition duration-100 hover:text-black;
+}
+
+.common-yellow-BlackBtn {
+  @apply py-sixteen px-fiftySix rounded-navbarBtnRadius bg-yellow text-DarkBlue text-base capitalize font-semibold font-manrope leading-8  border-NavbarBtnBorder border-transparent hover:border-solid hover:bg-DarkBlue  hover:text-white transition duration-100;
+}
+.blackBtn {
+  @apply py-sixteen px-fiftySix rounded-navbarBtnRadius bg-DarkBlue text-white text-base capitalize font-semibold font-manrope leading-8  border-NavbarBtnBorder border-transparent hover:border-solid hover:bg-yellow hover:text-DarkBlue transition duration-100;
+}
+
+/* {common button style ended } */
+
+/* {common lebel style started } */
+.label-two {
+  @apply font-Poppins text-navLink  font-medium leading-7 capitalize;
+}
+
+.label-one {
+  @apply font-Poppins text-lg  font-medium leading-8 capitalize;
+}
+
+.mixed-label {
+  @apply font-Poppins text-navLink  font-normal leading-8 capitalize;
+}
+
+.label-five {
+  @apply font-Poppins text-2xl font-semibold leading-8 capitalize;
+}
+
+/* {common lebel style ended } */
+
+/* {common body paragraph style started } */
+.Navbar-Link {
+  @apply font-Poppins text-navLink capitalize font-medium leading-7;
+}
 .Body-One {
   @apply font-Poppins text-base font-normal leading-7 opacity-70;
 }
@@ -94,26 +111,23 @@
   @apply font-Poppins text-base font-normal leading-7;
 }
 
-.Heading-Five {
-  @apply font-Poppins text-[38px] font-semibold leading-[56px];
-}
-
 .Cap-two {
   @apply font-Poppins text-xs font-semibold leading-7;
-}
-
-.Heading-Three {
-  @apply font-Poppins text-[38px] font-semibold leading-[56px];
 }
 
 .Body-Two {
   @apply font-Poppins text-base font-medium leading-7 opacity-70;
 }
 
+/* {common body paragrpah style ended } */
+
+/* {common body form and input style started } */
 .inputStyle {
-  @apply h-[64px] w-full bg-transparent border-[1.5px] rounded-[8px] border-fadeWhite outline-none px-8 placeholder:capitalize;
+  @apply h-sixtyFour w-full bg-transparent border-onePointFive rounded-lg border-fadeWhite outline-none px-8 placeholder:capitalize;
 }
 
 .formInput {
-  @apply h-[64px] w-full bg-transparent border-[1px] rounded-[8px] border-creamWhite outline-none px-8 placeholder:capitalize placeholder:text-black;
+  @apply h-sixtyFour w-full bg-transparent border-one rounded-lg border-creamWhite outline-none px-8 placeholder:capitalize placeholder:text-black;
 }
+
+/* {common body form and input style ended } */

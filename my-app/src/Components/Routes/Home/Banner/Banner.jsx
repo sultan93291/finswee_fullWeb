@@ -4,8 +4,13 @@ import Paragraph from "@/Components/Tags/Paragraph/Paragraph";
 import { BsArrowRight } from "react-icons/bs";
 import React from "react";
 import IMG from "@/Components/Tags/IMG/IMG";
+import { useRouter } from "next/navigation";
 
 const Banner = () => {
+  const router = useRouter();
+  const handleclick = () => {
+    router.push("/portfolio");
+  };
   return (
     <section className=" h-auto w-auto bg-Blue px-navbarPadding py-32  flex justify-between ">
       <div className=" flex flex-col gap-6 ">
@@ -21,7 +26,11 @@ const Banner = () => {
           className={" common-ParagraphTwo text-white w-fivesixtytwo "}
         />
         <div className=" mt-12 flex gap-10 items-center ">
-          <Button text={"view our work"} className={"common-Btn"} />
+          <Button
+            text={"view our work"}
+            className={"common-Btn"}
+            onclick={handleclick}
+          />
           <span className=" flex items-center gap-4 label-two text-white text-base ">
             {" "}
             view pricing <BsArrowRight className=" text-xl " />{" "}

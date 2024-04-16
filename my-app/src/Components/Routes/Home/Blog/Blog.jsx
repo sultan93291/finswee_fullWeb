@@ -1,9 +1,11 @@
 import BlogCards from "@/Components/Cards/BlogCards/BlogCards";
 import Heading from "@/Components/Tags/Heading/Heading";
 import React from "react";
-import {  useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
+
 const Blog = () => {
   const router = useRouter();
+  
   const handleblog = ImgSrc => {
     router.push(`/blog/blogsrc?=${ImgSrc}`);
   };

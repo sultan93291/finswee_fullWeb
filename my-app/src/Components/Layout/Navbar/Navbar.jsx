@@ -2,9 +2,15 @@
 import Button from "@/Components/Tags/Button/Button";
 import IMG from "@/Components/Tags/IMG/IMG";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 
+
 const Navbar = () => {
+  const router = useRouter()
+  const handleclick = () => {
+    router.push("/contact")
+  }
   const [pathName, setpathName] = useState();
   useEffect(() => {
     const path = window.location.pathname;
@@ -79,16 +85,7 @@ const Navbar = () => {
               portfolio
             </Link>
           </li>
-          <li>
-            <Link
-              href={"/privacy"}
-              className={`${
-                pathName === "/privacy" ? " text-white " : " text-navLinkTxtColor "
-              } Navbar-Link `}
-            >
-              privacy policy
-            </Link>
-          </li>
+
           <li>
             <Link
               href={"/blog"}
@@ -99,8 +96,20 @@ const Navbar = () => {
               blog
             </Link>
           </li>
+          <li>
+            <Link
+              href={"/privacy"}
+              className={`${
+                pathName === "/privacy"
+                  ? " text-white "
+                  : " text-navLinkTxtColor "
+              } Navbar-Link `}
+            >
+              privacy policy
+            </Link>
+          </li>
         </ul>
-        <Button className=" NavBtn" text={"contact us"} />
+        <Button className=" NavBtn" text={"contact us"} onclick={handleclick} />
       </div>
     </nav>
   );

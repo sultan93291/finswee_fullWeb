@@ -1,6 +1,7 @@
 import Button from "@/Components/Tags/Button/Button";
 import Heading from "@/Components/Tags/Heading/Heading";
 import Paragraph from "@/Components/Tags/Paragraph/Paragraph";
+import { useRouter } from "next/navigation";
 
 import React from "react";
 import { BsFillPlayFill } from "react-icons/bs";
@@ -14,6 +15,10 @@ export const PriceCard = ({
   btnTXt,
   facilites,
 }) => {
+  const router = useRouter();
+  const handleclick = () => {
+    router.push("/contact");
+  };
   return (
     <div className="w-fourOSix h-auto  flex flex-col bg-Gray rounded-xl hover:bg-Blue group transition duration-150 ">
       <div
@@ -73,6 +78,7 @@ export const PriceCard = ({
           className={
             "py-[16px] px-[56px] rounded-[41px] bg-DarkBlue text-white text-base capitalize font-semibold font-manrope leading-8  border-[2px] border-transparent group-hover:border-solid group-hover:bg-yellow  group-hover:text-DarkBlue transition duration-100 h-full w-full "
           }
+          onclick={handleclick}
         />
       </div>
     </div>

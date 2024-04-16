@@ -3,8 +3,13 @@ import Button from "@/Components/Tags/Button/Button";
 import Heading from "@/Components/Tags/Heading/Heading";
 import Paragraph from "@/Components/Tags/Paragraph/Paragraph";
 import React from "react";
+import { useRouter } from "next/navigation";
 
 const Template = () => {
+  const router = useRouter();
+  const handleclick = () => {
+    router.push("/contact");
+  };
   const paraTxt =
     "Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.";
   const templateCardInfo = [
@@ -86,7 +91,11 @@ const Template = () => {
                 className={"Body-Two w-fivesixtytwo text-center text-DarkBlue "}
               />
             </div>
-            <Button text={"Contact Us"} className={"common-yellow-BlackBtn"} />
+            <Button
+              text={"Contact Us"}
+              className={"common-yellow-BlackBtn"}
+              onclick={handleclick}
+            />
           </div>
         </div>
       </div>
