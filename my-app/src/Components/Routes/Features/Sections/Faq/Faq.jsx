@@ -1,4 +1,4 @@
-import Contact from "@/Components/Routes/Home/Contact/Contact";
+import Contact from "@/Components/Routes/Home/Sections/Contact/Contact";
 import React from "react";
 
 const Faq = () => {

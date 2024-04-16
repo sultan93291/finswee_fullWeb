@@ -1,6 +1,6 @@
 import React from "react";
-import Heading from "../Tags/Heading/Heading";
-import Paragraph from "../Tags/Paragraph/Paragraph";
+import Heading from "../../Tags/Heading/Heading";
+import Paragraph from "../../Tags/Paragraph/Paragraph";
 
 const CommonHeadingPara = ({ headinTxt, paraTxt }) => {
   return (

@@ -1,5 +1,5 @@
 "use client";
-import CommonHeadingPara from "@/Components/CommonHeadingPara/CommonHeadingPara";
+import CommonHeadingPara from "@/Components/Cards/CommonHeadingPara/CommonHeadingPara";
 import Button from "@/Components/Tags/Button/Button";
 import React, { useState } from "react";
 
@@ -17,10 +17,9 @@ const ContactFrom = () => {
     setForm(prevFormValue => ({ ...prevFormValue, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-  }
-
+  const handleSubmit = e => {
+    e.preventDefault();
+  };
 
   return (
     <section className=" h-auto w-auto  bg-white  flex flex-col py-32    ">

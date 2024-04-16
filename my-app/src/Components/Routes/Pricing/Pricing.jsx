@@ -1,7 +1,7 @@
-"use client"
-import React from 'react'
-import Plan from './Sections/Plans/Plan'
-import Contact from '../Home/Contact/Contact'
+"use client";
+import React from "react";
+import Plan from "./Sections/Plans/Plan";
+import Contact from "../Home/Sections/Contact/Contact";
 
 const Pricing = () => {
   return (
@@ -10,6 +10,6 @@ const Pricing = () => {
       <Contact />
     </>
   );
-}
+};
 
-export default Pricing
+export default Pricing;

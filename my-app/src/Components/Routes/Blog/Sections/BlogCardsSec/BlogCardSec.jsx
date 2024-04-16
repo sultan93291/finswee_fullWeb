@@ -63,6 +63,7 @@ const BlogCardsSec = () => {
           {BlogCard.map((item, index) => (
             <div onClick={() => handleblog(item.imgPath)} key={index}>
               <BlogCards
+                key={index}
                 src={item.imgPath}
                 height={285}
                 width={405}

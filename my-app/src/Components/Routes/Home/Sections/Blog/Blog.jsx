@@ -43,7 +43,7 @@ const Blog = () => {
       />
       <div className=" flex  flex-wrap gap-x-8 gap-y-sixtyFour  ">
         {BlogCard.map((item, index) => (
-          <div onClick={() => handleblog(item.imgPath)}>
+          <div key={index} onClick={() => handleblog(item.imgPath)}>
             <BlogCards
               key={index}
               src={item.imgPath}

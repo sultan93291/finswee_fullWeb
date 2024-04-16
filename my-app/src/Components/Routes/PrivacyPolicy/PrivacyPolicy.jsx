@@ -1,5 +1,5 @@
 import BlogHeadingPara from "@/Components/Cards/BlogHeadingPara/BlogHeadingPara";
-import CommonHeadingPara from "@/Components/CommonHeadingPara/CommonHeadingPara";
+import CommonHeadingPara from "@/Components/Cards/CommonHeadingPara/CommonHeadingPara";
 import React from "react";
 
 const PrivacyPolicy = () => {
