@@ -71,7 +71,7 @@ const Navbar = () => {
             <Link
               href={"/portfolio"}
               className={`${
-                pathName === "/portfolio" 
+                pathName === "/portfolio"
                   ? " text-white "
                   : " text-navLinkTxtColor "
               } Navbar-Link `}
@@ -81,12 +81,12 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              href={"/faq"}
+              href={"/privacy"}
               className={`${
-                pathName === "/faq" ? " text-white " : " text-navLinkTxtColor "
+                pathName === "/privacy" ? " text-white " : " text-navLinkTxtColor "
               } Navbar-Link `}
             >
-              FAQ
+              privacy policy
             </Link>
           </li>
           <li>

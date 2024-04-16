@@ -17,7 +17,7 @@ module.exports = {
         threeFoutyFour: "344px",
         one: "1px",
         fiveOEight: "508px",
-        threeOneOne:"311px"
+        threeOneOne: "311px",
       },
       padding: {
         navbarPadding: "320px",
@@ -26,6 +26,10 @@ module.exports = {
         fiftySix: "56px",
         seventySix: "76px",
         sixtyTwo: "62px",
+        fiftyFive: "50px",
+        sixtyNine: "69px",
+        seventySix: "76.5px",
+        ninetyTwo:"92px"
       },
       colors: {
         Blue: "#1C1E53",
@@ -43,6 +47,7 @@ module.exports = {
         SBlack: "#1D2130",
         green: "#97DAAD",
         lightYellow: "#FFFFF0",
+        creamWhite: "rgba(0, 0, 0, 0.12)",
       },
       fontFamily: {
         Poppins: "'Poppins', sans-serif",
@@ -76,6 +81,7 @@ module.exports = {
         twenty: "20px",
         ninetySix: "96px",
         sixtyFour: "64px",
+        six:"6px"
       },
       width: {
         NavbarBtn: "185px",
@@ -112,6 +118,8 @@ module.exports = {
         fourSeventySeven: "477px",
         thousandTwoZeroeight: "1280px",
         nineFourtyNine: "949px",
+        thousandSixtyEight: "1061px",
+        twoFiftyFour:"254px"
       },
       borderRadius: {
         navbarBtnRadius: "41px",

@@ -19,7 +19,7 @@
   @apply font-Poppins text-navLink  font-medium leading-7 opacity-[0.7];
 }
 .common-ParaThree {
-  @apply font-Poppins text-navLink  font-medium leading-7 
+  @apply font-Poppins text-navLink  font-medium leading-7;
 }
 .common-Heading5 {
   @apply font-Poppins text-Heading5  font-medium leading-8  text-DarkBlue;
@@ -30,83 +30,90 @@
 }
 
 .Main-Heading {
-  @apply font-Poppins text-[54px]  font-semibold leading-[74px]  ;
+  @apply font-Poppins text-[54px]  font-semibold leading-[74px];
 }
 
-.HeadingFive{
-  @apply font-Poppins text-[32px] font-medium leading-[48px]
+.HeadingFive {
+  @apply font-Poppins text-[32px] font-medium leading-[48px];
 }
 
-.HeadingFive-one{
-  @apply font-Poppins text-[32px] font-normal leading-[48px]
+.HeadingFive-one {
+  @apply font-Poppins text-[32px] font-normal leading-[48px];
 }
 
 .common-Btn {
-  @apply  py-[16px] px-[56px] rounded-[41px] bg-yellow text-black text-base capitalize font-semibold font-manrope leading-8  border-[2px] border-transparent
-  hover:border-solid hover:bg-transparent hover:border-NavbarBorderColor hover:text-white transition duration-100 ;
+  @apply py-[16px] px-[56px] rounded-[41px] bg-yellow text-black text-base capitalize font-semibold font-manrope leading-8  border-[2px] border-transparent
+  hover:border-solid hover:bg-transparent hover:border-NavbarBorderColor hover:text-white transition duration-100;
 }
 
-
-.NavBtn{
-  @apply h-navbarBtnHeight bg-black w-NavbarBtn rounded-navbarBtnRadius bg-transparent border-NavbarBtnBorder border-solid border-NavbarBorderColor  Navbar-Link text-white hover:border-r-transparent hover:border-transparent hover:bg-yellow transition duration-100 hover:text-black
+.NavBtn {
+  @apply h-navbarBtnHeight bg-black w-NavbarBtn rounded-navbarBtnRadius bg-transparent border-NavbarBtnBorder border-solid border-NavbarBorderColor  Navbar-Link text-white hover:border-r-transparent hover:border-transparent hover:bg-yellow transition duration-100 hover:text-black;
 }
 
-
-.common-yellow-BlackBtn{
-  @apply py-[16px] px-[56px] rounded-[41px] bg-yellow text-DarkBlue text-base capitalize font-semibold font-manrope leading-8  border-[2px] border-transparent hover:border-solid hover:bg-DarkBlue  hover:text-white transition duration-100 
+.common-yellow-BlackBtn {
+  @apply py-[16px] px-[56px] rounded-[41px] bg-yellow text-DarkBlue text-base capitalize font-semibold font-manrope leading-8  border-[2px] border-transparent hover:border-solid hover:bg-DarkBlue  hover:text-white transition duration-100;
+}
+.blackBtn {
+  @apply py-[16px] px-[56px] rounded-[41px] bg-DarkBlue text-white text-base capitalize font-semibold font-manrope leading-8  border-[2px] border-transparent hover:border-solid hover:bg-yellow hover:text-DarkBlue transition duration-100;
 }
 
 .label-two {
-  @apply font-Poppins text-[16px]  font-medium leading-7 capitalize ;
+  @apply font-Poppins text-[16px]  font-medium leading-7 capitalize;
 }
 
-.label-one{
-  @apply font-Poppins text-lg  font-medium leading-8 capitalize ;
+.label-one {
+  @apply font-Poppins text-lg  font-medium leading-8 capitalize;
 }
 
-.mixed-label{
-  @apply font-Poppins text-[16px]  font-normal leading-8 capitalize ;
+.mixed-label {
+  @apply font-Poppins text-[16px]  font-normal leading-8 capitalize;
 }
 
-.Heading-two{
-  @apply  font-Poppins text-5xl font-semibold leading-[48px]
+.Heading-two {
+  @apply font-Poppins text-5xl font-semibold leading-[48px];
 }
 
-.label-five{
-@apply font-Poppins text-2xl font-semibold leading-8 capitalize
+.label-five {
+  @apply font-Poppins text-2xl font-semibold leading-8 capitalize;
 }
 
 .Heading-Six {
-  @apply font-Poppins text-2xl font-normal leading-9
+  @apply font-Poppins text-2xl font-normal leading-9;
 }
 .Heading-Six-2nd {
-  @apply font-Poppins text-2xl font-medium leading-9
+  @apply font-Poppins text-2xl font-medium leading-9;
 }
 .Heading-Six-3rd {
-  @apply font-Poppins text-2xl font-medium leading-8
+  @apply font-Poppins text-2xl font-medium leading-8;
 }
 .Body-One {
-  @apply font-Poppins text-base font-normal leading-7 opacity-70
+  @apply font-Poppins text-base font-normal leading-7 opacity-70;
+}
+
+.Body-One-2nd {
+  @apply font-Poppins text-base font-normal leading-7;
 }
 
 .Heading-Five {
-  @apply font-Poppins text-[38px] font-semibold leading-[56px]
+  @apply font-Poppins text-[38px] font-semibold leading-[56px];
 }
-
 
 .Cap-two {
-  @apply font-Poppins text-xs font-semibold leading-7
+  @apply font-Poppins text-xs font-semibold leading-7;
 }
 
-
 .Heading-Three {
-  @apply font-Poppins text-[38px] font-semibold leading-[56px]
+  @apply font-Poppins text-[38px] font-semibold leading-[56px];
 }
 
 .Body-Two {
-  @apply font-Poppins text-base font-medium leading-7 opacity-70
+  @apply font-Poppins text-base font-medium leading-7 opacity-70;
 }
 
-.inputStyle{
-  @apply h-[64px] w-full bg-transparent border-[1.5px] rounded-[8px] border-fadeWhite outline-none px-8 placeholder:capitalize
+.inputStyle {
+  @apply h-[64px] w-full bg-transparent border-[1.5px] rounded-[8px] border-fadeWhite outline-none px-8 placeholder:capitalize;
+}
+
+.formInput {
+  @apply h-[64px] w-full bg-transparent border-[1px] rounded-[8px] border-creamWhite outline-none px-8 placeholder:capitalize placeholder:text-black;
 }

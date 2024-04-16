@@ -50,7 +50,7 @@ const Form = () => {
           />
         </div>
       </div>
-      <form className="h-auto pt-24 px-24  w-[624px] bg-Blue flex flex-col gap-10 ">
+      <form className="h-auto pt-24 px-24 w-sixTwentyFour bg-Blue flex flex-col gap-10 ">
         <div className="flex flex-col gap-4 ">
           <Heading
             Heading={"h5"}
