@@ -19,7 +19,7 @@ module.exports = {
         fiveOEight: "508px",
         threeOneOne: "311px",
         sixtyFour: "64px",
-        twoEightyFour:"284px"
+        twoEightyFour: "284px",
       },
       maxWidth: {
         maxWidth: "1280px",
